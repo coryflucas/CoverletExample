@@ -1,0 +1,88 @@
+{
+ "/Users/clucas/Source/clucas/coverlet-test/Test/bin/Debug/netcoreapp2.1/Example.dll": {
+  "/Users/clucas/Source/clucas/coverlet-test/Example/Example.cs": {
+   "Example.ExampleRepository": {
+    "System.Void Example.ExampleRepository::.ctor(Example.ExampleContext)": {
+     "Lines": {
+      "11": {
+       "Hits": 1
+      },
+      "12": {
+       "Hits": 1
+      },
+      "13": {
+       "Hits": 1
+      },
+      "14": {
+       "Hits": 1
+      }
+     },
+     "Branches": {
+     }
+    }
+   },
+   "Example.ExampleRepository/<CountEntities>d__2": {
+    "System.Void Example.ExampleRepository/<CountEntities>d__2::MoveNext()": {
+     "Lines": {
+      "17": {
+       "Hits": 1
+      },
+      "18": {
+       "Hits": 1
+      },
+      "19": {
+       "Hits": 1
+      }
+     },
+     "Branches": {
+      "18": [{
+       "Offset": 58,
+       "EndOffset": 60,
+       "Path": 0,
+       "Ordinal": 0
+      }, {
+       "Offset": 58,
+       "EndOffset": 125,
+       "Path": 1,
+       "Ordinal": 1
+      }]
+     }
+    }
+   },
+   "Example.Entity": {
+    "System.Int32 Example.Entity::get_Id()": {
+     "Lines": {
+      "24": {
+       "Hits": 0
+      }
+     },
+     "Branches": {
+     }
+    }
+   },
+   "Example.ExampleContext": {
+    "Microsoft.EntityFrameworkCore.DbSet`1<Example.Entity> Example.ExampleContext::get_Entities()": {
+     "Lines": {
+      "29": {
+       "Hits": 2
+      }
+     },
+     "Branches": {
+     }
+    },
+    "System.Void Example.ExampleContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Example.ExampleContext>)": {
+     "Lines": {
+      "32": {
+       "Hits": 1
+      },
+      "33": {
+       "Hits": 2
+      }
+     },
+     "Branches": {
+     }
+    }
+   }
+  }
+ }
+}
